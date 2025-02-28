@@ -20,7 +20,7 @@ export default async function Page() {
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
         PKL Countdown
       </h1>
-      <Countdown endDate={new Date(data.pklEnd)} />
+      <h2>End</h2>
       <div className="absolute bottom-4 opacity-70">
         <p className="text-gray-600 text-sm">
           Credit by <a href="https://romidev.tech/" className="text-gray-800 hover:text-gray-700">Romi Muharom</a>
